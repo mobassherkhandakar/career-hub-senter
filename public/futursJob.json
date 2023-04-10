@@ -1,72 +1,72 @@
 [
   {
     "id": 1,
-    "company_logo": "https://example.com/company1_logo.png",
-    "job_title": "Software Engineer",
+    "company_logo": "https://i.ibb.co/zNMWX0N/google-1-1-1.png",
+    "title": "Software Engineer",
     "company_name": "Company 1",
     "remote_or_onsite": "Remote",
     "location": "Anywhere",
     "fulltime_or_parttime": "Fulltime",
     "salary": "Competitive",
-    "job_description": "We are looking for a talented software engineer to join our team and help us develop and maintain our software products.",
-    "job_responsibility": "- Develop and maintain software products\n- Write clean, well-designed code\n- Troubleshoot and debug software issues\n- Collaborate with cross-functional teams to identify and solve complex problems",
+    "description": "We are looking for a talented software engineer to join our team and help us develop and maintain our software products.",
+    "responsibility": "- Develop and maintain software products\n- Write clean, well-designed code\n- Troubleshoot and debug software issues\n- Collaborate with cross-functional teams to identify and solve complex problems",
     "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
     "experiences": "3+ years of professional experience in software development",
-    "contact_information": {
+    "contact": {
       "phone": "+1-123-456-7890",
       "email": "jobs@company1.com"
     }
   },
   {
     "id": 2,
-    "company_logo": "https://example.com/company2_logo.png",
-    "job_title": "Data Analyst",
+    "company_logo": "https://i.ibb.co/j4VbzYN/netflix-4-1.png",
+    "title": "Data Analyst",
     "company_name": "Company 2",
     "remote_or_onsite": "Onsite",
     "location": "New York City",
     "fulltime_or_parttime": "Fulltime",
     "salary": "$70,000 - $90,000 per year",
-    "job_description": "We are seeking a data analyst to join our team and help us analyze and interpret complex data sets.",
-    "job_responsibility": "- Analyze and interpret complex data sets\n- Develop data visualizations and dashboards\n- Collaborate with cross-functional teams to identify and solve complex problems",
+    "description": "We are seeking a data analyst to join our team and help us analyze and interpret complex data sets.",
+    "responsibility": "- Analyze and interpret complex data sets\n- Develop data visualizations and dashboards\n- Collaborate with cross-functional teams to identify and solve complex problems",
     "educational_requirements": "Bachelor's or Master's degree in Mathematics, Statistics, Computer Science, or related field",
     "experiences": "2+ years of professional experience in data analysis",
-    "contact_information": {
+    "contact": {
       "phone": "+1-123-456-7890",
       "email": "jobs@company2.com"
     }
   },
   {
     "id": 3,
-    "company_logo": "https://example.com/company3_logo.png",
-    "job_title": "Marketing Manager",
+    "company_logo": "https://i.ibb.co/C1sSNxX/tesla-9-1.png",
+    "title": "Marketing Manager",
     "company_name": "Company 3",
     "remote_or_onsite": "Onsite",
     "location": "Los Angeles",
     "fulltime_or_parttime": "Fulltime",
     "salary": "$80,000 - $100,000 per year",
-    "job_description": "We are looking for a highly skilled and experienced marketing manager to lead our marketing team and develop and implement effective marketing strategies.",
-    "job_responsibility": "- Develop and implement effective marketing strategies\n- Lead and manage a team of marketing professionals\n- Analyze and interpret market trends and data\n- Collaborate with cross-functional teams to identify and solve complex problems",
+    "description": "We are looking for a highly skilled and experienced marketing manager to lead our marketing team and develop and implement effective marketing strategies.",
+    "responsibility": "- Develop and implement effective marketing strategies\n- Lead and manage a team of marketing professionals\n- Analyze and interpret market trends and data\n- Collaborate with cross-functional teams to identify and solve complex problems",
     "educational_requirements": "Bachelor's or Master's degree in Marketing, Business Administration, or related field",
     "experiences": "5+ years of professional experience in marketing management",
-    "contact_information": {
+    "contact": {
       "phone": "+1-123-456-7890",
       "email": "jobs@company3.com"
     }
   },
   {
     "id": 4,
-    "company_logo": "https://example.com/company7_logo.png",
-    "job_title": "Graphic Designer",
+    "company_logo": "https://i.ibb.co/nwwg8rs/Group-10021.png",
+    "title": "Graphic Designer",
     "company_name": "Company 7",
     "remote_or_onsite": "Remote",
     "location": "Anywhere",
     "fulltime_or_parttime": "Fulltime",
     "salary": "$50,000 - $70,000 per year",
-    "job_description": "We are looking for a creative and talented graphic designer to create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate our target audience.",
-    "job_responsibility": "- Create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate our target audience\n- Develop graphics for product illustrations, logos, and websites\n- Select colors, images, text style, and layout",
+    "description": "We are looking for a creative and talented graphic designer to create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate our target audience.",
+    "responsibility": "- Create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate our target audience\n- Develop graphics for product illustrations, logos, and websites\n- Select colors, images, text style, and layout",
     "educational_requirements": "Bachelor's degree in graphic design or related field",
     "experiences": "2+ years of professional experience in graphic design",
-    "contact_information": {
+    "contact": {
       "phone": "+1-123-456-7890",
       "email": "jobs@company7.com"
     }
@@ -74,17 +74,17 @@
   {
     "id": 5,
     "company_logo": "https://example.com/company8_logo.png",
-    "job_title": "Sales Representative",
+    "title": "Sales Representative",
     "company_name": "Company 8",
     "remote_or_onsite": "Onsite",
     "location": "Chicago",
     "fulltime_or_parttime": "Fulltime",
     "salary": "Base salary + commission",
-    "job_description": "We are seeking a dynamic and results-driven sales representative to actively seek out and engage customer prospects.",
-    "job_responsibility": "- Actively seek out and engage customer prospects\n- Meet or exceed sales targets\n- Establish, develop, and maintain positive business and customer relationships\n- Expedite the resolution of customer problems and complaints",
+    "description": "We are seeking a dynamic and results-driven sales representative to actively seek out and engage customer prospects.",
+    "responsibility": "- Actively seek out and engage customer prospects\n- Meet or exceed sales targets\n- Establish, develop, and maintain positive business and customer relationships\n- Expedite the resolution of customer problems and complaints",
     "educational_requirements": "Bachelor's degree in Business Administration, Sales or relevant field",
     "experiences": "3+ years of professional experience in sales",
-    "contact_information": {
+    "contact": {
       "phone": "+1-123-456-7890",
       "email": "jobs@company8.com"
     }
@@ -92,17 +92,17 @@
   {
     "id": 6,
     "company_logo": "https://example.com/company9_logo.png",
-    "job_title": "Financial Analyst",
+    "title": "Financial Analyst",
     "company_name": "Company 9",
     "remote_or_onsite": "Onsite",
     "location": "San Francisco",
     "fulltime_or_parttime": "Fulltime",
     "salary": "$80,000 - $100,000 per year",
-    "job_description": "We are seeking a skilled financial analyst to join our team and provide financial and analytical support to various business units and departments within the organization.",
-    "job_responsibility": "- Provide financial and analytical support to various business units and departments within the organization\n- Analyze financial data and prepare financial reports and projections\n- Collaborate with cross-functional teams to identify and solve complex financial problems",
+    "description": "We are seeking a skilled financial analyst to join our team and provide financial and analytical support to various business units and departments within the organization.",
+    "responsibility": "- Provide financial and analytical support to various business units and departments within the organization\n- Analyze financial data and prepare financial reports and projections\n- Collaborate with cross-functional teams to identify and solve complex financial problems",
     "educational_requirements": "Bachelor's or Master's degree in Finance, Economics, Accounting, or related field",
     "experiences": "3+ years of professional experience in financial analysis",
-    "contact_information": {
+    "contact": {
       "phone": "+1-123-456-7890",
       "email": "jobs@company9.com"
     }

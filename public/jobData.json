@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "logo": "https://example.com/job_logo_1.png",
-    "title": "Web Developer",
+    "logo": "https://i.ibb.co/TDfBJ4K/accounts-1.png",
+    "title": "Account & Finance",
     "jobs": "150 Jobs Available"
   },
   {
     "id": 2,
-    "logo": "https://example.com/job_logo_2.png",
-    "title": "Software Engineer",
+    "logo": "https://i.ibb.co/8YGYn7G/business-1.png",
+    "title": "Creative Design",
     "jobs": "160 Jobs Available"
   },
   {
     "id": 3,
-    "logo": "https://example.com/job_logo_3.png",
-    "title": "Data Scientist",
+    "logo": "https://i.ibb.co/58gLw5R/social-media-1.png",
+    "title": "Marketing & Sales",
     "jobs": "140 Jobs Available"
   },
   {
     "id": 4,
-    "logo": "https://example.com/job_logo_4.png",
-    "title": "Cybersecurity Analyst",
+    "logo": "https://i.ibb.co/Jm9FgSV/chip-1.png",
+    "title": "Engineering Job",
     "jobs":"150+ Jobs Available"
   }
 
