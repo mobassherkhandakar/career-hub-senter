@@ -8,7 +8,7 @@ const Footers = () => {
           <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
           <div className="md:max-w-md lg:col-span-2">
               <span className="text-base font-medium tracking-wide text-gray-300">
-              CareerHub
+              JobSHub
               </span>
               
               <p className="mt-4 w-72 text-sm text-gray-500">
@@ -220,9 +220,9 @@ const Footers = () => {
           </div>
           <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
             <p className="text-sm text-gray-500">
-            @2023 CareerHub. All Rights Reserved
+            @2023 JobSHub. All Rights Reserved
             </p>
-            <p className="text-gray-500 text-sm ">Powered by CareerHub</p>
+            <p className="text-gray-500 text-sm ">Powered by JobSHub</p>
           </div>
         </div>
       </div>

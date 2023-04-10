@@ -8,12 +8,12 @@ const Header = () => {
       <Navbar fluid={true} rounded={true}>
         <Link to={"/"}>
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            CareerHub
+            JobSHub
           </span>
         </Link>
 
         <div className="flex md:order-2">
-          <Button>Star Applying</Button>
+          <Button gradientDuoTone="purpleToBlue">Star Applying</Button>
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
@@ -39,7 +39,7 @@ const Header = () => {
             title="appliedjobs"
             className={({ isActive }) => (isActive ? "active" : "default")}
           >
-            Appliedjobs
+            Applied Jobs
           </NavLink>
           <NavLink
             to="/blog"
