@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="my-container">
+    <div className="my-container mt-5">
       <Navbar fluid={true} rounded={true}>
         <Link to={"/"}>
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">

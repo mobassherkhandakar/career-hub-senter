@@ -9,7 +9,9 @@ function App() {
   return (
     <div>
       <Header/>
+      <div className='min-h-[calc(100vh-65px)]'>
       <Outlet/>
+      </div>
       <Footers/>
     </div>
   )
