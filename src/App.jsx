@@ -4,10 +4,13 @@ import Footers from './components/Footers'
 import { createContext, useEffect, useState } from 'react'
 
 export const JobsContext = createContext([])
+
 function App() {
   const [jobData, setJobData] = useState([])
   useEffect(()=>{
-    fetch('futursJob.json').then(res=> res.json()).then(data=> setJobData(data))
+    fetch('futursJob.json')
+    .then(res=> res.json())
+    .then(data=> setJobData(data))
   },[])
   return (
     <JobsContext.Provider value={[jobData, setJobData]}>

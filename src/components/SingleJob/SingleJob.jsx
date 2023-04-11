@@ -1,6 +1,7 @@
 import { Button } from "flowbite-react";
 import React from "react";
 import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const SingleJob = ({ singleJob }) => {
   const {
@@ -21,12 +22,8 @@ const SingleJob = ({ singleJob }) => {
       <h3 className="font-semibold text-xl">{title}</h3>
       <h3  className="text-gray-500">{company_name}</h3>
       <div className="flex gap-5 my-3">
-        <Button outline={true} gradientDuoTone="purpleToBlue">
-          {remote_or_onsite}
-        </Button>
-        <Button outline={true} gradientDuoTone="purpleToBlue">
-          {fulltime_or_parttime}
-        </Button>
+        <p className="my-outline">{remote_or_onsite}</p>
+        <p className="my-outline">{fulltime_or_parttime}</p>
       </div>
       <div className="flex gap-9 text-gray-500 my-5">
         <p className="flex justify-between items-center">
@@ -39,7 +36,7 @@ const SingleJob = ({ singleJob }) => {
         </p>
       </div>
       <div>
-        <Button gradientDuoTone="purpleToBlue">View Details</Button>
+        <Link to={`/jobdeteils/${id}`}><Button gradientDuoTone="purpleToBlue">View Details</Button></Link>
       </div>
     </div>
   );
