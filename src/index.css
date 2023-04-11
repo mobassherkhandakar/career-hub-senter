@@ -14,3 +14,6 @@
 .my-outline{
   @apply outline outline-offset-1 px-2 py-1 rounded-lg my-auto outline-blue-500
 }
+.btn{
+  @apply inline-flex items-center h-12 px-6 mb-3 font-medium text-white transition duration-200 rounded shadow-md  md:mb-0 bg-blue-400 hover:bg-blue-700
+}
