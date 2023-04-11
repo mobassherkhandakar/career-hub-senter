@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./SingleJobDeteils.css";
 import { CalendarDaysIcon, CurrencyDollarIcon, EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
-import { Button } from "flowbite-react";
+import { addToDb } from '../utilities/fakedb';
 
 const SingleJobDeteils = ({ job }) => {
-  // console.log(job);
+
   const {
+    id,
     description,
     responsibility,
     salary,
@@ -15,6 +16,10 @@ const SingleJobDeteils = ({ job }) => {
     title,
     location,
   } = job;
+
+  const localstorageHandeler = (id) => {
+    addToDb(id)
+  }
   
   return (
     <div className="mt-15">
@@ -83,7 +88,7 @@ const SingleJobDeteils = ({ job }) => {
             
           </div>
           <div className=" w-full  mt-3 ">
-            <p className=" w-full flex justify-center items-center text-center btn">Apply Now</p>
+            <p onClick={()=> localstorageHandeler(id)} className=" cursor-pointer w-full flex my-btn justify-center items-center text-center btn">Apply Now</p>
           </div>
         </div>
       </div>

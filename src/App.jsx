@@ -8,7 +8,7 @@ export const JobsContext = createContext([])
 function App() {
   const [jobData, setJobData] = useState([])
   useEffect(()=>{
-    fetch('futursJob.json')
+    fetch('/futursJob.json')
     .then(res=> res.json())
     .then(data=> setJobData(data))
   },[])

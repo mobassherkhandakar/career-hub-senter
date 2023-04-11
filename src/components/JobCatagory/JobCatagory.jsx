@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Job from "../Job/Job";
+import { CalendarIcon } from "@heroicons/react/24/solid";
 
 const JobCatagory = () => {
   const [jobs, setJobs] = useState([])
   useEffect(()=>{
-    fetch('jobData.json')
+    fetch('/jobData.json')
     .then(res=> res.json())
     .then(data => setJobs(data))
   },[])

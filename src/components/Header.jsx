@@ -17,11 +17,7 @@ const Header = () => {
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
-          <NavLink
-            to="/"
-            aria-label="Home"
-            title="Home"
-            className={({ isActive }) => (isActive ? "active" : "default")}
+          <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "default")}
           >
             Home
           </NavLink>

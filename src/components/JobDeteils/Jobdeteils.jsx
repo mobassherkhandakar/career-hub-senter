@@ -5,7 +5,6 @@ import SingleJobDeteils from '../singleJobDeteils';
 const Jobdeteils = () => {
 
   const Job_Deteils = useLoaderData()
-  console.log(Job_Deteils);
   let JobId = useParams()
   const [jobDeteils, setJobDeteils] = useState([])
   useEffect(()=> {
@@ -16,7 +15,6 @@ const Jobdeteils = () => {
       setJobDeteils(saveJob)
     }
   },[])
-  // console.log(jobDeteils);
   return (
     <div>
       {
