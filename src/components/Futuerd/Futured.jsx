@@ -4,7 +4,7 @@ import SingleJob from "../SingleJob/SingleJob";
 import { Button } from "flowbite-react";
 
 const Futured = () => {
-  const [jobData, setJobData] = useContext(JobsContext);
+  const [jobData] = useContext(JobsContext);
   const [showAll, setShowAll] = useState(false)
   const handelShowAll =()=> {
     setShowAll(true)
