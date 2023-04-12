@@ -5,7 +5,7 @@ const Blog = () => {
     <div>
       <h1 className="text-center font-bold text-3xl my-20">Blog</h1>
 
-      <div className="bg my-container p-4">
+      <div className="bg my-3 my-container p-4">
         <h2 className="text-2xl font-semibold ">
           1. When should you use Context API?
         </h2>
@@ -19,7 +19,7 @@ const Blog = () => {
           drilling.
         </p>
       </div>
-      <div className="bg my-container p-4">
+      <div className="bg my-3 my-container p-4">
         <h2 className="text-2xl font-semibold ">2. What is a custom hook?</h2>
         <p className="">
           A custom hook in React is a JavaScript function that allows us to
@@ -29,7 +29,7 @@ const Blog = () => {
           common code from components and reuse it across the application.
         </p>
       </div>
-      <div className="bg my-container p-4">
+      <div className="bg my-3 my-container p-4">
         <h2 className="text-2xl font-semibold ">
           3. What is useRef? Why we use this ?
         </h2>
@@ -43,7 +43,7 @@ const Blog = () => {
           your React application.
         </p>
       </div>
-      <div className="bg my-container p-4">
+      <div className="bg my-3 my-container p-4">
         <h2 className="text-2xl font-semibold ">
           4. What is useMemo? Why we use this ?
         </h2>
