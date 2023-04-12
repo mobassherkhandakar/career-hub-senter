@@ -15,7 +15,9 @@ const AppliedJobData = ({ job }) => {
     location,
   } = job;
   return (
-    <div className="w-3/5 mx-auto border-4 rounded-md flex justify-between items-center  h-auto p-5 mt-6">
+    <>
+    
+    <div className="w-3/5 mx-auto border-4 my-4 rounded-md flex justify-between items-center  h-auto p-5 ">
       <div className="flex items-center gap-5">
         <div>
           <img src={company_logo} alt="" />
@@ -46,6 +48,7 @@ const AppliedJobData = ({ job }) => {
           </Link>
         </div>
     </div>
+    </>
   );
 };
 

@@ -21,15 +21,17 @@ const AppliedJobs = () => {
     <div>
       <h2 className="text-center my-20 font-bold text-4xl">Applied Jobs</h2>
       <div>
-        <select name="filter" id=""></select>
+      <div className="text-end w-4/5 ">
+        <select name="filter" >
+          <option value="All">Filter by</option>
+          <option value="All">All</option>
+          <option value="onsite">Onsite</option>
+          <option value="onsite">Remote</option>
+        </select>
       </div>
-      <div>
         {savelocal.map((job) => (
           <AppliedJobData key={job.id} job={job} />
         ))}
-        {/* {jobData.map((job) => (
-          <AppliedJobData key={job.id} job={job} />
-        ))} */}
       </div>
     </div>
   );
