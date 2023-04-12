@@ -1,33 +1,37 @@
 import { toast } from "react-hot-toast";
 
-// use local storage to manage job data
-const addToDb = (id) => {
-  let appliedJob = getJobApplied();
-  if(appliedJob){
-      let exist = appliedJob.find(job=> job === id)
-      if(exist){
-        toast.error('Alrady Applied! ☠️', { autoClose: 500 })
-        
-      }
-      else{
-        appliedJob.push(id);
-      }
-    
+// use local storage to manage cart data
+const addToDb = id => {
+  let jobApplied = getShoppingCart();
+  // add quantity
+  const quantity = jobApplied[id];
+  if (!quantity) {
+      jobApplied[id] = 1;
+  }
+  else {
+      const newQuantity = quantity + 1;
+      jobApplied[id] = newQuantity;
+      toast.error('alrady added')
+  }
+  localStorage.setItem('job-id', JSON.stringify(jobApplied));
 }
-else{
-    appliedJob.push(id);
-  }
-  localStorage.setItem("job-id", JSON.stringify(appliedJob));
-};
-const getJobApplied = () => {
-  let appliedJob = [];
 
-  //get the shopping job from local storage
-  const storedJob = localStorage.getItem("job-id");
-  if (storedJob) {
-    appliedJob = JSON.parse(storedJob);
-  }
-  return appliedJob;
-};
 
-export { addToDb, getJobApplied };
+
+const getShoppingCart = () => {
+  let jobApplied = {};
+
+  //get the shopping cart from local storage
+  const storedCart = localStorage.getItem('job-id');
+  if (storedCart) {
+      jobApplied = JSON.parse(storedCart);
+  }
+  return jobApplied;
+}
+
+
+
+export {
+  addToDb,
+  getShoppingCart,
+}

@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from "react";
 import "./SingleJobDeteils.css";
-import { CalendarDaysIcon, CurrencyDollarIcon, EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
-import { addToDb } from '../utilities/fakedb';
+import {
+  CalendarDaysIcon,
+  CurrencyDollarIcon,
+  EnvelopeIcon,
+  MapPinIcon,
+  PhoneIcon,
+} from "@heroicons/react/24/solid";
+import { addToDb } from "../utilities/fakedb";
 
 const SingleJobDeteils = ({ job }) => {
-
   const {
     id,
     description,
@@ -18,9 +22,9 @@ const SingleJobDeteils = ({ job }) => {
   } = job;
 
   const localstorageHandeler = (id) => {
-    addToDb(id)
-  }
-  
+    addToDb(id);
+  };
+
   return (
     <div className="mt-15">
       <h1 className="text-center font-bold text-4xl ">Job Details</h1>
@@ -54,41 +58,50 @@ const SingleJobDeteils = ({ job }) => {
         <div className="jobInfo  w-96">
           <div className="information p-5">
             <div>
-              <p className="font-semibold  text-xl divide-y ">
-                Job Details
-              </p>
+              <p className="font-semibold  text-xl divide-y ">Job Details</p>
             </div>
             <hr />
             <p className="flex mt-2 items-center">
               <CurrencyDollarIcon className="w-5 text-[#757575]" />
-              <span className="font-semibold text-xl">Salary:</span> &nbsp; {salary}
+              <span className="font-semibold text-xl">Salary:</span> &nbsp;{" "}
+              {salary}
             </p>
             <p className="flex mt-2 items-center">
               <CalendarDaysIcon className="w-5 text-[#757575]" />
-              <span className="font-semibold text-xl">Job Title:</span> &nbsp; {title}
+              <span className="font-semibold text-xl">
+                Job Title:
+              </span> &nbsp; {title}
             </p>
             <div>
               <p className="font-semibold py-5  text-xl divide-y ">
                 Contract information
               </p>
             </div>
-            <hr /> 
+            <hr />
             <p className="flex mt-2 items-center">
               <PhoneIcon className="w-5 text-[#757575]" />
-              <span className="font-semibold text-xl">Phone:</span> &nbsp; {contact.phone}
+              <span className="font-semibold text-xl">Phone:</span> &nbsp;{" "}
+              {contact.phone}
             </p>
             <p className="flex mt-2 items-center">
               <EnvelopeIcon className="w-5 text-[#757575]" />
-              <span className="font-semibold text-xl">Email:</span> &nbsp; {contact.email}
+              <span className="font-semibold text-xl">Email:</span> &nbsp;{" "}
+              {contact.email}
             </p>
             <p className="flex mt-2 items-center">
-              <CurrencyDollarIcon className="w-5 text-[#757575]" />
-              <span className="font-semibold text-xl">Address:</span> &nbsp; {location}
+              <MapPinIcon className="w-5 text-[#757575]" />
+              <span className="font-semibold text-xl">
+                Address:
+              </span> &nbsp; {location}
             </p>
-            
           </div>
           <div className=" w-full  mt-3 ">
-            <p onClick={()=> localstorageHandeler(id)} className=" cursor-pointer w-full flex my-btn justify-center items-center text-center btn">Apply Now</p>
+            <p
+              onClick={() => localstorageHandeler(id)}
+              className=" cursor-pointer w-full flex my-btn justify-center items-center text-center btn"
+            >
+              Apply Now
+            </p>
           </div>
         </div>
       </div>
